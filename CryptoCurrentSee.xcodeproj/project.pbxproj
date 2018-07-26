@@ -18,6 +18,7 @@
 		9F7B1C972106689E007AC833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F7B1C952106689E007AC833 /* LaunchScreen.storyboard */; };
 		9F7B1CA22106689E007AC833 /* CryptoCurrentSeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B1CA12106689E007AC833 /* CryptoCurrentSeeTests.swift */; };
 		9F7B1CAD2106689E007AC833 /* CryptoCurrentSeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B1CAC2106689E007AC833 /* CryptoCurrentSeeUITests.swift */; };
+		9FB1189D21095150005D269E /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1189C21095150005D269E /* APICall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9F7B1CA82106689E007AC833 /* CryptoCurrentSeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrentSeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7B1CAC2106689E007AC833 /* CryptoCurrentSeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrentSeeUITests.swift; sourceTree = "<group>"; };
 		9F7B1CAE2106689E007AC833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB1189C21095150005D269E /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APICall.swift; path = /Users/ThomasPrezioso/Desktop/develop/devProjects/CryptoCurrentSee/CryptoCurrentSee/APICall.swift; sourceTree = "<absolute>"; };
 		C2203D35858D66AD12970C91 /* Pods-CryptoCurrentSee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrentSee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoCurrentSee/Pods-CryptoCurrentSee.debug.xcconfig"; sourceTree = "<group>"; };
 		C605F0C9A1C78F1FF47A7BE9 /* Pods_CryptoCurrentSeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCurrentSeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85E9F276F8E2B3A1C66A417 /* Pods-CryptoCurrentSeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrentSeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoCurrentSeeTests/Pods-CryptoCurrentSeeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				9F7B1C892106689C007AC833 /* AppDelegate.swift */,
+				9FB1189C21095150005D269E /* APICall.swift */,
 				9F7B1C8B2106689C007AC833 /* ViewController.swift */,
 				9F7B1C8D2106689C007AC833 /* Main.storyboard */,
 				9F7B1C932106689E007AC833 /* Assets.xcassets */,
@@ -380,6 +383,7 @@
 			files = (
 				9F7B1C8C2106689C007AC833 /* ViewController.swift in Sources */,
 				9F7B1C922106689C007AC833 /* CryptoCurrentSee.xcdatamodeld in Sources */,
+				9FB1189D21095150005D269E /* APICall.swift in Sources */,
 				9F7B1C8A2106689C007AC833 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,7 +561,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = CryptoCurrentSee/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tom.CryptoCurrentSee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -573,7 +580,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = CryptoCurrentSee/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tom.CryptoCurrentSee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -590,7 +600,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = CryptoCurrentSeeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tom.CryptoCurrentSeeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -608,7 +622,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = CryptoCurrentSeeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tom.CryptoCurrentSeeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -625,7 +643,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = CryptoCurrentSeeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tom.CryptoCurrentSeeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -642,7 +664,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JBM5ZNF6C;
 				INFOPLIST_FILE = CryptoCurrentSeeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.tom.CryptoCurrentSeeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
