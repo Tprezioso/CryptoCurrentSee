@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/ThomasPrezioso/Desktop/develop/devProjects/CryptoCurrentSee/CryptoCurrentSee/APICall.swift">
-   </FileRef>
-   <FileRef
       location = "group:CryptoCurrentSee.xcodeproj">
    </FileRef>
    <FileRef
