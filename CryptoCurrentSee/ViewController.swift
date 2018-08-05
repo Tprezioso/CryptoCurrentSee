@@ -10,10 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var jsonData = [""]
     override func viewDidLoad() {
         super.viewDidLoad()
-        var api = APICall.self
-        api.getCurrency()
+        let api = APICall.self
+        api.getCurrency(completion: jsonData)
         
         // Do any additional setup after loading the view, typically from a nib.
     }

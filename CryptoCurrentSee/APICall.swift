@@ -9,8 +9,8 @@ import Foundation
 import Alamofire
 
 class APICall: NSObject {
-  class func getCurrency() {
-        Alamofire.request("https://api.coinmarketcap.com/v2/listings/").responseJSON { response in
+    class func getCurrency(completion: ([String])){
+        Alamofire.request("https://api.coinmarketcap.com/v2/ticker/?limit=10").responseJSON { response in
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")                         // response serialization result
@@ -23,7 +23,6 @@ class APICall: NSObject {
                 print("Data: \(utf8Text)") // original server data as UTF8 string
             }
         }
-
     }
     
 //    class func getCurrency(completion: @escaping ([String]) -> void){
