@@ -17,6 +17,5 @@ class ViewController: UIViewController {
         let api = APICall.self
         api.getCurrency(completion: jsonData)
     }
-
 }
 
