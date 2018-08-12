@@ -15,7 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let api = APICall.self
-        api.getCurrency(completion: jsonData)
+        //api.getCurrency(completion: jsonData)
+        api.listOfCryptoCurrency(completion: jsonData)
     }
 }
 
