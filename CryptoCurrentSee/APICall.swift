@@ -16,13 +16,18 @@ class APICall: NSObject {
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")                         // response serialization result
             
-            if let json = response.result.value {
-                print("JSON: \(json)") // serialized json response
-               
+            if let json = response.result.value as? [String:AnyObject] {
+                print("JSON: \(json["data"])") // serialized json response
+
             }
-            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
-                print("Data: \(utf8Text)") // original server data as UTF8 string
-            }
+            
+//            if let dict = response.result.value as? [[String : AnyObject]] {
+//                print("DICT: \(dict)") // json as a Dictionary
+//            }
+            
+//            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
+//                print("Data: \(utf8Text)") // original server data as UTF8 string
+//            }
         }
     }
     
