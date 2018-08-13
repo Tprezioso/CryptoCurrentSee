@@ -17,7 +17,8 @@ class APICall: NSObject {
             print("Result: \(response.result)")                         // response serialization result
             
             if let json = response.result.value as? [String:AnyObject] {
-                print("JSON: \(json["data"])") // serialized json response
+                // below is how to get a single crypto currency data
+                print("JSON: \(json["data"]!["1"])") // serialized json response
 
             }
             
