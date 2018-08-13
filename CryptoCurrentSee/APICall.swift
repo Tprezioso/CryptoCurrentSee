@@ -22,10 +22,6 @@ class APICall: NSObject {
 
             }
             
-//            if let dict = response.result.value as? [[String : AnyObject]] {
-//                print("DICT: \(dict)") // json as a Dictionary
-//            }
-            
 //            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
 //                print("Data: \(utf8Text)") // original server data as UTF8 string
 //            }
@@ -49,18 +45,5 @@ class APICall: NSObject {
         }
     }
     
-//    class func getCurrency(completion: @escaping ([String]) -> void){
-//        Alamofire.request("https://api.coinmarketcap.com/v2/listings/").responseJSON { response in
-////            self.view.addSubview(hud)
-////            if let JSON = response.result.value {
-////                let data = JSON as? [String: Any]
-////                let status = data?["status"] as! String?
-////                self.statusLabel.text = " Status: \(status!.capitalizingFirstLetter())"
-////                let date = data?["last_updated"] as! String?
-////                self.setBackGroundColorForStatus(status: status!)
-////                self.lastUpdatedLabel.text = self.getDateFromJSONDate(dateString: date!)
-////                hud.hide(afterDelay: 0.5)
-//            }
-//        }
 }
 
