@@ -17,20 +17,14 @@ class APICall: NSObject {
             print("Result: \(response.result)")                         // response serialization result
             
             if let json = response.result.value as? [String:AnyObject] {
-                // below is how to get a single crypto currency data
-                print("JSON: \(json["data"]!["1"])") // serialized json response
-               
-                //figured out how to get the data from the JSON
+                // Below is how to get a single crypto currency data
+                // Figured out how to get the data from the JSON
                 var coolStuff = json["data"]!["1"]! as? [String: Any]
                 for (name, value) in coolStuff! {
                     print("Name \(name) : Data = \(value)")
                 }
                 print(coolStuff!["name"]!)
             }
-            
-//            if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
-//                print("Data: \(utf8Text)") // original server data as UTF8 string
-//            }
         }
     }
     
@@ -50,6 +44,5 @@ class APICall: NSObject {
             }
         }
     }
-    
 }
 
