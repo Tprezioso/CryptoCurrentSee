@@ -34,13 +34,12 @@ class APICall: NSObject {
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")                         // response serialization result
-            
-            if let json = response.result.value as? [String :Any] {
-//                print(json["data"] ?? "No Data")
-                for (key, value) in json {
-                        print("THIS IS DOING SOMETHING   \(key)  \(value)")
-                    }
 
+            // How to get the individual list data
+            if let json = response.result.value as? [String :Any] {
+                if let listData = json["data"] as? [AnyObject] {
+                    print(listData[0]["id"])
+                }
 //                print("JSON: \(json["data"]!)") // serialized json response
             }
             
