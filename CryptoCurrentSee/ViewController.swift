@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     var jsonData = ""
-    var aSTRINTG = ""
+    var aSTRINTG = [""]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         let api = APICall.self
-        api.getCurrency(completion: jsonData)
+//        api.getCurrency(completion: jsonData)
+        api.listOfCryptoCurrency(completion: aSTRINTG)
     }
 }
 

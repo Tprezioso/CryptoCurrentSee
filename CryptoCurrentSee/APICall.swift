@@ -19,11 +19,11 @@ class APICall: NSObject {
             if let json = response.result.value as? [String:AnyObject] {
                 // Below is how to get a single crypto currency data
                 // Figured out how to get the data from the JSON
-                var coolStuff = json["data"]!["1"]! as? [String: Any]
-                for (name, value) in coolStuff! {
+                var parsedJSON = json["data"]!["1"]! as? [String: Any]
+                for (name, value) in parsedJSON! {
                     print("Name \(name) : Data = \(value)")
                 }
-                print(coolStuff!["name"]!)
+                print(parsedJSON!["name"]!)
             }
         }
     }
@@ -35,12 +35,17 @@ class APICall: NSObject {
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")                         // response serialization result
             
-            if let json = response.result.value {
-                print("JSON: \(json)") // serialized json response
+            if let json = response.result.value as? [String :Any] {
+//                print(json["data"] ?? "No Data")
+                for (key, value) in json {
+                        print("THIS IS DOING SOMETHING   \(key)  \(value)")
+                    }
+
+//                print("JSON: \(json["data"]!)") // serialized json response
             }
             
             if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
-                print("Data: \(utf8Text)") // original server data as UTF8 string
+//                print("Data: \(utf8Text)") // original server data as UTF8 string
             }
         }
     }
