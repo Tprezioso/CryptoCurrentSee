@@ -142,11 +142,10 @@
 			isa = PBXGroup;
 			children = (
 				9F7B1C892106689C007AC833 /* AppDelegate.swift */,
-				9FBBB6FA210BCCB0001B1183 /* APICall.swift */,
-				9F7B1C8B2106689C007AC833 /* ViewController.swift */,
-				9F7B1C8D2106689C007AC833 /* Main.storyboard */,
+				9FC251E7212B9A2B002A674F /* Model */,
+				9FC251E8212B9A33002A674F /* Controller */,
+				9FC251E9212B9A4F002A674F /* View */,
 				9F7B1C932106689E007AC833 /* Assets.xcassets */,
-				9F7B1C952106689E007AC833 /* LaunchScreen.storyboard */,
 				9F7B1C982106689E007AC833 /* Info.plist */,
 				9F7B1C902106689C007AC833 /* CryptoCurrentSee.xcdatamodeld */,
 			);
@@ -169,6 +168,31 @@
 				9F7B1CAE2106689E007AC833 /* Info.plist */,
 			);
 			path = CryptoCurrentSeeUITests;
+			sourceTree = "<group>";
+		};
+		9FC251E7212B9A2B002A674F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FBBB6FA210BCCB0001B1183 /* APICall.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FC251E8212B9A33002A674F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B1C8B2106689C007AC833 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FC251E9212B9A4F002A674F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F7B1C8D2106689C007AC833 /* Main.storyboard */,
+				9F7B1C952106689E007AC833 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

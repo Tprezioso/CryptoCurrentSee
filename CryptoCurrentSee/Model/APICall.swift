@@ -1,9 +1,6 @@
 //
 //  APICall.swift
-//  
-//
 //  Created by Thomas Prezioso on 7/25/18.
-//
 
 import Foundation
 import Alamofire
@@ -29,7 +26,7 @@ class APICall: NSObject {
     }
     
     // TODO: need to search this list by name and then using is idea search the getCurrency func json
-    class func listOfCryptoCurrency(completion:([String])) {
+    class func listOfCryptoCurrency(completion:([String:String])) {
         Alamofire.request("https://api.coinmarketcap.com/v2/listings").responseJSON { response in
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response))") // http url response

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -77,7 +77,7 @@
 		248F3D39345C4CE0AC2F203A83BB3BE8 /* Pods-CryptoCurrentSee-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoCurrentSee-acknowledgements.markdown"; sourceTree = "<group>"; };
 		270997A455F8B651E1FB4DB7028E6BF0 /* Pods-CryptoCurrentSeeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoCurrentSeeUITests-frameworks.sh"; sourceTree = "<group>"; };
 		27858522CC8477DCF1F4479176ACDDE9 /* Pods-CryptoCurrentSee-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoCurrentSee-dummy.m"; sourceTree = "<group>"; };
-		2DE794D1D0FE2ED7AC09E67BBB750802 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE794D1D0FE2ED7AC09E67BBB750802 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		33A04B5D27E86AF4B84D95E21CF3F452 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
@@ -96,13 +96,13 @@
 		6762E298B8A37894558726722AF5B3BE /* Pods-CryptoCurrentSeeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoCurrentSeeTests-dummy.m"; sourceTree = "<group>"; };
 		69C0ED837991380E786759F9C4BB018C /* Pods-CryptoCurrentSeeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoCurrentSeeUITests-resources.sh"; sourceTree = "<group>"; };
 		770A1A6F9928D0D295A405A8FBA33A13 /* Pods-CryptoCurrentSeeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoCurrentSeeUITests-umbrella.h"; sourceTree = "<group>"; };
-		7E59314C615D54A8FF0FFA83DE972601 /* Pods_CryptoCurrentSee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoCurrentSee.framework; path = "Pods-CryptoCurrentSee.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		817B0C99E26889F9DE429E9296F739FA /* Pods_CryptoCurrentSeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoCurrentSeeTests.framework; path = "Pods-CryptoCurrentSeeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E59314C615D54A8FF0FFA83DE972601 /* Pods_CryptoCurrentSee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCurrentSee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817B0C99E26889F9DE429E9296F739FA /* Pods_CryptoCurrentSeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCurrentSeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82407AB362A1D459958716B225875901 /* Pods-CryptoCurrentSee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoCurrentSee.release.xcconfig"; sourceTree = "<group>"; };
 		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		8A841FDA0D4B7A3BAC37249CDC8DD316 /* Pods-CryptoCurrentSeeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoCurrentSeeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8F0B54A72D142F880FCD5D04FE3BD413 /* Pods-CryptoCurrentSee.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CryptoCurrentSee.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		A48CCA5EAD66432729B269D86153D076 /* Pods-CryptoCurrentSeeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoCurrentSeeTests-frameworks.sh"; sourceTree = "<group>"; };
 		A85CE062DE2A64E2CBEB47ED44B36B5A /* Pods-CryptoCurrentSeeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoCurrentSeeTests-resources.sh"; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		C0D50C2A3795BC790B355724AA2EDEAC /* Pods-CryptoCurrentSeeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoCurrentSeeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C51B35017485F66979BCFBD2AE34E8E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFFC168C94C491AD31A8B17FB1405043 /* Pods-CryptoCurrentSee-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoCurrentSee-resources.sh"; sourceTree = "<group>"; };
-		D11269B78D798320D627C807DBBD072B /* Pods_CryptoCurrentSeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoCurrentSeeUITests.framework; path = "Pods-CryptoCurrentSeeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11269B78D798320D627C807DBBD072B /* Pods_CryptoCurrentSeeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCurrentSeeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F50F37DFB6DC0B7B9D8C373E5A3EAE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		D311AAD0EC440DEF1AF4EE263885E99B /* Pods-CryptoCurrentSeeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoCurrentSeeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D74E3CD614F1E71D8B6EC3CDF8B5C600 /* Pods-CryptoCurrentSeeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoCurrentSeeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -218,7 +218,6 @@
 				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
 				2E5925946A4DE3B8F7E4137BACAD9618 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -426,7 +425,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -777,6 +776,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
