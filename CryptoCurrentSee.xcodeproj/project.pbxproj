@@ -20,6 +20,7 @@
 		9F7B1CAD2106689E007AC833 /* CryptoCurrentSeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B1CAC2106689E007AC833 /* CryptoCurrentSeeUITests.swift */; };
 		9FBBB6FB210BCCB0001B1183 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBB6FA210BCCB0001B1183 /* APICall.swift */; };
 		9FE8FD2221331BC7007ADF93 /* SavedListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8FD2121331BC7007ADF93 /* SavedListTableViewController.swift */; };
+		9FE8FD242134E5E4007ADF93 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE8FD232134E5E4007ADF93 /* SearchTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		9F7B1CAE2106689E007AC833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FBBB6FA210BCCB0001B1183 /* APICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		9FE8FD2121331BC7007ADF93 /* SavedListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SavedListTableViewController.swift; path = CryptoCurrentSee/Controller/SavedListTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		9FE8FD232134E5E4007ADF93 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchTableViewController.swift; path = CryptoCurrentSee/Controller/SearchTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		C2203D35858D66AD12970C91 /* Pods-CryptoCurrentSee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrentSee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoCurrentSee/Pods-CryptoCurrentSee.debug.xcconfig"; sourceTree = "<group>"; };
 		C605F0C9A1C78F1FF47A7BE9 /* Pods_CryptoCurrentSeeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoCurrentSeeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85E9F276F8E2B3A1C66A417 /* Pods-CryptoCurrentSeeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrentSeeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoCurrentSeeTests/Pods-CryptoCurrentSeeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				9F7B1C8B2106689C007AC833 /* ViewController.swift */,
 				9FE8FD2121331BC7007ADF93 /* SavedListTableViewController.swift */,
+				9FE8FD232134E5E4007ADF93 /* SearchTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F7B1C8C2106689C007AC833 /* ViewController.swift in Sources */,
+				9FE8FD242134E5E4007ADF93 /* SearchTableViewController.swift in Sources */,
 				9F7B1C922106689C007AC833 /* CryptoCurrentSee.xcdatamodeld in Sources */,
 				9FBBB6FB210BCCB0001B1183 /* APICall.swift in Sources */,
 				9FE8FD2221331BC7007ADF93 /* SavedListTableViewController.swift in Sources */,
