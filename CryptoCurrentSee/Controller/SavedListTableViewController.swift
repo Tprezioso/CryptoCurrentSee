@@ -24,13 +24,14 @@ let data = ["Cell1", "Cell2", "Cell3", "Cell4", "Cell5"]
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return data.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "savedCell", for: indexPath)
 
+        cell.textLabel?.text = data[indexPath.row]
         // Configure the cell...
 
         return cell
