@@ -13,6 +13,7 @@ class SavedListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate=self
+        tableView.tableFooterView = UIView()
     }
 let data = ["Cell1", "Cell2", "Cell3", "Cell4", "Cell5"]
     // MARK: - Table view data source
