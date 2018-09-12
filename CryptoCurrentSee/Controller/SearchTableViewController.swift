@@ -9,7 +9,10 @@
 import UIKit
 
 class SearchTableViewController: UITableViewController {
-
+    let listOfCurrency: [String:String] = ["":""]
+    
+    var listAPICall = APICall.listOfCryptoCurrency(completion: )
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
@@ -29,8 +32,6 @@ class SearchTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "searchCell", for: indexPath)
-
-        // Configure the cell...
 
         return cell
     }
