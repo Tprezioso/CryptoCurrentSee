@@ -9,7 +9,7 @@
 import UIKit
 
 class SearchTableViewController: UITableViewController {
-    let listOfCurrency: [String:String] = ["":""]
+    let listOfCurrency = [String]()
     
     var listAPICall = APICall.listOfCryptoCurrency(completion: )
     

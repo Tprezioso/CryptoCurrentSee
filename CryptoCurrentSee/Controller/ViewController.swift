@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var jsonData = ""
-    var aSTRINTG = ["":""]
+    var aSTRINTG = [""]
 
     override func viewDidLoad() {
         super.viewDidLoad()
