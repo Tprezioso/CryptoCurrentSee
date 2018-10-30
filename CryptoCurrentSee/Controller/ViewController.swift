@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         let api = APICall.self
 //        api.getCurrency(completion: jsonData)
         api.listOfCryptoCurrency(completion: aSTRINTG)
+        api.getCurrency(completion: jsonData)
     }
 }
 
